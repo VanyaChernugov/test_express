@@ -12,6 +12,7 @@ app.get("/", function (req, res) {
 			int_list.push(item**2);
 		}
 	}
+	//test
 	res.send(int_list.join(','));
 })
 app.listen(3000);
